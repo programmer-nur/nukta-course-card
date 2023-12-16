@@ -1,5 +1,5 @@
-import Courses from '@/components/Courses';
-import React from 'react';
+import Courses from "@/components/Courses";
+import React from "react";
 
 const Home = () => {
   return (

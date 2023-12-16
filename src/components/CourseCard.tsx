@@ -4,9 +4,9 @@ import Image from "next/image";
 import timeLine from "../assets/time-line.png";
 import book from "../assets/book.png";
 import avatar from "../assets/avatar.png";
-const CourseCard = ({ card }: any) => {
+import { ICard } from "@/types/common";
+const CourseCard = ({ card }: { card: ICard }) => {
   const {
-    id,
     title,
     description,
     image,
