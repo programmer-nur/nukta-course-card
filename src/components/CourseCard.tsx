@@ -19,11 +19,11 @@ const CourseCard = ({ card }: { card: ICard }) => {
   } = card;
   return (
     <div
-      className="w-[234px] rounded-xl shadow-[rgba(0, 0, 0, 0.18)] shadow-md bg-white transform
+      className="w-[234px] rounded-[10px] shadow-[rgba(0, 0, 0, 0.18)] shadow-md bg-white transform
     transition duration-500 hover:scale-105 justify-center items-center hover:shadow-2xl"
     >
       <Image
-        className="h-[157px] rounded-t-xl object-cover"
+        className="h-[157px] rounded-t-[10px] object-cover"
         src={image}
         height={300}
         width={400}
