@@ -12,6 +12,7 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "bg-banner": "url(../../public/bg.jpg)",
       },
       colors: {
         primary: "#1A9C9C",
@@ -19,6 +20,8 @@ const config: Config = {
         dimBlack: "#353535",
         highlight: "#95E3E3",
         gray: "#878787",
+        hoverColor: "#ffaa17",
+        darkRed: "#ea0638",
       },
     },
   },

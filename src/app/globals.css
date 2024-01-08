@@ -7,3 +7,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+@layer components {
+  .navbarLi {
+    @apply hover:text-hoverColor cursor-pointer duration-300;
+  }
+}
